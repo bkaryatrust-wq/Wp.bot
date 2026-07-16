@@ -1,7 +1,7 @@
 {
-  "name": "whatsapp-ultimate-bot",
-  "version": "3.0.0",
-  "description": "WhatsApp Auto-Reply Bot with Multi-Account Support",
+  "name": "whatsapp-telegram-bot",
+  "version": "4.0.0",
+  "description": "WhatsApp bot controlled via Telegram with inline buttons",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -11,6 +11,7 @@
     "bcryptjs": "^2.4.3",
     "express": "^4.18.2",
     "express-session": "^1.18.0",
+    "node-telegram-bot-api": "^0.61.0",
     "sql.js": "^1.10.3",
     "pino": "^8.17.2"
   }
